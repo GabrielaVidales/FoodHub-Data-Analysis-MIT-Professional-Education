@@ -85,8 +85,6 @@ The analysis revealed several critical insights:
 ### D) Data Quality Enhancement
 *   **Reduce unrated orders:** Implement post-delivery nudges (one-tap rating prompts) or small incentives (points, discounts) to increase rating response rates, enabling more reliable satisfaction analysis.
 
----
-
 ## 👩‍💻 Author
 
 **Gabriela Yasmin Vidales Ayala**  
@@ -94,8 +92,6 @@ The analysis revealed several critical insights:
 MIT Professional Education
 
 This project was developed as a capstone assignment for the MIT Professional Education diploma program, demonstrating applied data science skills in a real-world business context.
-
----
 
 ## 📄 License
 
