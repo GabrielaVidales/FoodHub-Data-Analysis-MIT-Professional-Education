@@ -35,6 +35,38 @@ The analysis uses `foodhub_order.csv`, containing 1,898 orders with the followin
 | `food_preparation_time` | Preparation time (minutes) |
 | `delivery_time` | Delivery time (minutes) |
 
+## 📈 Key Visualizations
+
+### 🏆 Top Restaurants by Order Volume
+![Top 10 Restaurants](images/img_top_restaurants.png)
+Shake Shack leads with 219 orders, followed by The Meatball Shop and Blue Ribbon Sushi. A small cluster of restaurants drives the majority of platform volume.
+
+---
+
+### 🍜 Cuisine Demand: Weekday vs Weekend
+![Cuisine by Day](images/img_cuisine_weekday_weekend.png)
+American cuisine dominates across both periods, with 415 weekend orders. Weekend demand spikes consistently across all top categories, confirming peak-period concentration.
+
+---
+
+### 💵 Order Cost Distribution
+![Cost Distribution](images/img_cost_distribution.png)
+The majority of orders fall in the $10–$20 range. ~29% exceed the $20 threshold, triggering the 25% commission tier and representing a disproportionately valuable segment for revenue.
+
+---
+
+### ⭐ Customer Ratings Distribution
+![Ratings](images/img_ratings_distribution.png)
+39% of orders (736) have no rating submitted. Among rated orders, 4 and 5-star reviews dominate, suggesting high satisfaction — though the large unrated pool limits conclusive analysis.
+
+---
+
+### 🚚 Delivery Time: Weekday vs Weekend
+![Delivery Time](images/img_delivery_time.png)
+Weekday deliveries average 28.34 minutes vs. 22.47 on weekends — a ~6-minute gap likely driven by traffic and courier supply. ~10.5% of all orders exceed 60 total minutes (prep + delivery).
+
+---
+
 ## 🛠️ Technologies & Libraries
 
 *   **Language:** Python 3.8+
